@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Second" cloudDestinationProperty="Second" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="XO2" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="Container" scrollVisible="false" tensileDragEnabled="true" tactileTouch="true" snapToGrid="false" flatten="false" layout="GridLayout" gridLayoutRows="3" gridLayoutColumns="3" >
+    <layoutConstraint value="Center" />
+    <component type="Button" name="Button" cloudDestinationProperty="Button" uiid="Button" snapToGrid="false" text="1" toggle="false" gap="0" verticalAlignment="2" textPosition="3" >
+      <custom name="maskName" type="java.lang.String" value="[null]" />
+    </component>
+    <component type="Button" name="Button1" cloudDestinationProperty="Button1" uiid="Button" text="2" gap="2" >
+    </component>
+    <component type="Button" name="Button2" cloudDestinationProperty="Button2" uiid="Button" text="3" gap="2" >
+    </component>
+    <component type="Button" name="Button3" cloudDestinationProperty="Button3" uiid="Button" text="4" >
+    </component>
+    <component type="Button" name="Button4" cloudDestinationProperty="Button4" uiid="Button" text="5" >
+    </component>
+    <component type="Button" name="Button5" cloudDestinationProperty="Button5" uiid="Button" text="6" gap="2" >
+    </component>
+    <component type="Button" name="Button6" cloudDestinationProperty="Button6" uiid="Button" text="7" >
+    </component>
+    <component type="Button" name="Button7" cloudDestinationProperty="Button7" uiid="Button" text="8" >
+    </component>
+    <component type="Button" name="Button8" cloudDestinationProperty="Button8" uiid="Button" text="9" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+    <layoutConstraint value="South" />
+    <component type="Container" name="Container3" cloudDestinationProperty="Container3" >
+      <component type="Label" name="Label" cloudDestinationProperty="Label" text="X win : " >
+      </component>
+      <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" >
+        <custom name="text" type="java.lang.String" value="XXX" />
+      </component>
+    </component>
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" >
+      <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="O win : " >
+      </component>
+      <component type="SpanLabel" name="SpanLabel1" cloudDestinationProperty="SpanLabel1" >
+        <custom name="text" type="java.lang.String" value="YYY" />
+      </component>
+    </component>
+  </component>
+<command name="" id="2" action="$Back" backCommand="false" /></component>
