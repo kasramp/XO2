@@ -8,4 +8,3 @@ For more information about CodenameOne refer below link,
 http://www.codenameone.com/
 ## Contact
 * kasra@madadipouya.com
-* kasra_mp@live.com
